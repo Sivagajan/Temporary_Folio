@@ -15,40 +15,61 @@
 
 header{
     background-color: #efe8d7 ;
+    font-family: Open-sans;
 }
 
 section{
     padding-bottom: 50px;
 }
 .number{
-    padding-top: 100px;
-    padding-left: 115px;
+    padding: 100px 115px 0 115px;
 }
 
-.top1{
+.fixedbar{
     position: fixed;
     right: 0;
     left: 0;
 }
 
-.header1{
+.header{
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0px 165px;
     border-bottom: 2px solid black;
     align-items: center;
+    height: 50px;
 }
-
+.untermbild{
+    padding-top: 5px;
+    display: flex;
+}
+.designer{
+    font-family: Athene;
+    font-size: 24px;
+}
+.developer{
+    font-family: Open-sans;
+    font-size: 24px;
+}
+.kuerzen{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
 .heading{
-    display:flex;
-    width: 650px;
-    padding-top: 50px;
     align-self: center;
-    text-decoration: underline 4px;
+    padding-top: 50px;
+    font-family: Athene;
+    word-break: break-all;  
+
 }
 
 h1{
-    font-size: 100px;
+    width: 1000px;
+    font-size: 150px;
+    text-align: center;
+    color: #042A5A;
+    border-bottom: solid 2px #042A5A;
 }
 
 .img{
@@ -60,61 +81,100 @@ h1{
 .puf{
     padding: 30px;
 }
-
+/* ------------------------MAIN------------------------ */
 .release{
     background-color: #f4c4c4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: #282B29;
+    font-family: Open-sans;
 }
 
-h2{
-    flex-wrap: wrap;
-    font-size: 100px;
-    height: 400px;
-    width: 300px;
+.h2l{
+
+    width: 510px;
+    font-family: athene;
+    font-size: 160px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    word-break:break-all;
+    text-align: left;
+}
+
+.h2r{
+    width: 500px;
+    font-family: athene;
+    font-size: 160px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    word-break:break-all;
+    text-align: right;
+
 }
 
 .rosep{
-    width:50%;
+    width:535px;
     align-self: flex-end;
+    line-height: 30px;
+    margin-right: 100px;
 }
 
 .table{
     padding-top: 50px;
-    width: 50%;
+    width: 535px;
     align-self: flex-end;
+    margin-right: 100px;
+}
+.usize{
+    width: 100px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.msize{
+    font-size: 21px;
+    line-height: 18px;
 }
 
+.osize
+{
+    font-size: 14px;
+    line-height: 18px;
+}
 .firstlineunder{
     display: flex;
     justify-content: flex-end;
     border-bottom: 1px solid black;
+
 }
 .lineunder{
     display:flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
+    align-items: center;
 }
 .svg{
     width: 120px;
     align-self: flex-end;
+    margin-right: 100px;
 }
 
 .works{
     background-color: #DEB873;
+    color: #7D2222;
 }
 .wheading{
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
     align-items: flex-end;
 }
+
 
 .worksp{
     width: 40%;
     padding-left: 100px;
     padding-bottom: 100px;
-    color: #7D2222;
     line-height: 30px;
     font-family: Open-sans;
 }
@@ -125,7 +185,7 @@ h2{
     align-content: center;
     padding: 0 100px;
     font-size: 64px;
-    color: #7D2222;
+
     font-family: Athene;
     padding-bottom: 250px;
 }
@@ -142,20 +202,38 @@ h2{
     flex-direction: column;
     background-color: #D2D2D2;
     color: #388883;
+    font-family: Open-sans;
 }
-h3{
-    font-size: 160px;
-}
+
 .footext{
     display: flex;
-    width: 300px;
+    width: 430px;
     align-self: center;
-    line-height: 30px;
+    line-height: 48px;
+    font-size: 24px;
 }
 
 .possiblities{
+    margin-right: 100px;
     display: flex;
     flex-direction: column;
     align-self: end;
     text-align: right;
+    font-size: 24px;
+    line-height: 48px;
+    padding-top: 100px;
+}
+.possiblities>p:hover{
+    text-decoration: underline;
+
+}
+
+.h2lfoo{
+    width: 620px;
+    font-family: athene;
+    font-size: 160px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    word-break:break-all;
+    text-align: left;
 }
